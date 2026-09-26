@@ -1,23 +1,80 @@
 aid: arrive
+
 name: Arrive
-description: 'Arrive is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://a.storyblok.com/f/333594/4500x3000/2568baf1c1/22-square_05-article.png/m/1200x630/filters:quality(75)
+
+description: 'Arrive provides smart mobility solutions for cities, helping operators, decision‑makers and businesses improve urban transportation through smarter parking, public transit integration, and fleet management. Their platform enables cities to reduce congestion, enhance user experience, and optimize mobility services, delivering data‑driven insights and seamless payment experiences across parking operators and transport providers.'
+
 url: https://raw.githubusercontent.com/api-evangelist/arrive/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
+- Mobility
+- SmartCities
+- Parking
+- Transportation
+- SaaS
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/arrive-llms.txt
+- type: WellKnown
+  url: well-known/arrive-well-known.yml
+- type: Hosts
+  url: hosts/arrive-hosts.yml
+- type: Vendors
+  url: vendors/arrive-vendors.yml
+- type: Newsroom
+  url: https://arrive.com/en/newsroom
+- type: Blog
+  url: https://arrive.com/en/newsroom/blog/white-paper
+- type: Documentation
+  url: https://developer.arrive.com/
+- type: DomainSecurity
+  url: security/arrive-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/arrive_stock/
+  url: https://arrive.com
+
+- type: Support
+  url: https://arrive.com/en/contact
+- type: TermsOfService
+  url: https://arrive.com/en/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://arrive.com/en/privacy-policy
+
+apis: []
+
+x-coverage:
+  state: gated
+  reason: sales-gate
+  detail: Access to the developer documentation requires a login, preventing retrieval of the OpenAPI spec.
+  evidence:
+    - url: https://developer.arrive.com/openapi.json
+      status: 200
+  checked: '2026-09-26'
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

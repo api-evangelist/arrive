@@ -1,0 +1,18 @@
+# Arrive
+
+> Arrive, including brands like EasyPark, Flowbird, RingGo, ParkMobile and Parkopedia, is a leading global mobility platform. Present in over 90 countries and 20,000 cities, the company helps people and decision-makers make smarter decisions about urban mobility and ease the experience of travel worldwide. Arrive delivers a unique combination of the core ingredients to make cities more livable: from smart payments and optimized car parks to data-driven traffic reduction and support for reinvestment in public transport and green space. It’s about more than function, it’s about saving time and simplifying the experience of travel for everyone. Travel is more than a journey, it’s how you Arrive.
+
+Append `.md` to the jobs list or any individual job URL for a markdown version (for example https://careers.arrive.com/jobs.md).
+
+## Open positions
+
+- [All open positions](https://careers.arrive.com/jobs): Browse every currently open job. Also available as markdown at https://careers.arrive.com/jobs.md and as a JSON Feed with embedded JobPosting data at https://careers.arrive.com/jobs.json.
+
+## Optional
+
+- [People](https://careers.arrive.com/people): The team behind Arrive.
+- [Team stories](https://careers.arrive.com/stories): Stories from people who work at Arrive.
+- [Privacy policy](https://careers.arrive.com/privacy-policy): How candidate data is handled.
+- [Cookie policy](https://careers.arrive.com/cookie-policy): Cookie usage and consent.
+- [Data privacy](https://careers.arrive.com/data-privacy): Data privacy controls and rights.
+- [API catalog](https://careers.arrive.com/.well-known/api-catalog): Machine-readable discovery document for available APIs.
