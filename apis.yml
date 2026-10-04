@@ -21,7 +21,18 @@ created: '2026-09-26'
 
 modified: '2026-09-26'
 
+x-docs-platform: mintlify
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
+x-docs-hosting: vercel
 tags:
+- Mobility
+- Smart Cities
+- Parking
+- Transportation
+- Software-as-a-Service
+- Company
+tags_raw:
 - Mobility
 - SmartCities
 - Parking
